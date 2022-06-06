@@ -1,0 +1,227 @@
+:root {
+    --heder-footer-color: #2F303A;
+    --accent-color: #2196F3;
+    --second-title: color: #212121;
+    --fonds
+    
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+       
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link {
+    list-style-type: none;
+}
+
+
+.header-link,
+.header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.02em;
+    color: var(--heder-footer-color)
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--accent-color);
+}
+.benefits{
+    background: #2F303A
+}
+.benefits-title{
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1,36x;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+
+.benefits-btn{
+    Font-weight: 700;
+        font-size: 16px;
+        line-height: 1,88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+}
+.benefits-btn :hover , .benefits-btn :focus
+{
+    cursor: auto;
+    color: var(--accent-color);
+}
+
+.main {
+    background: #2F303A;
+}
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1, 36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.main-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1, 88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF
+}
+
+.pre-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1, 71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+.about {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title);
+}
+
+.about-img {
+    width: 370px;
+    height: 294px;
+}
+
+.team {
+    background: #F5F4FA;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title);
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-img {
+    width: 270px;
+    height: 260px;
+}
+
+.footer {
+    background-color: var(--heder-footer-color);
+}
+
+.footer-adress {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1, 71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1, 71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+.btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1, 62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.btn:hover,
+.btn-all:focus {
+    color: var(--accent-color);
+
+}
+
+.btn-all {
+    cursor: auto;
+}
+
+
+.portfolio-img {
+    width: 370px;
+    height: 294px;
+}
+
+.portfolio-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1, 88x;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
